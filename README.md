@@ -28,7 +28,7 @@ getStableValue(35,100,4,2);
 
 result2 =  [4* result1] ====> [result1 = 4 * step3] ====> [step3 = 4 * step2] ====> [step2 = 100 * analogueRead(35)]
 
-100*4*4*4*2 = 12800
+(100*4*4*4*2) = 12800
 
 it out a stable value from 12800 value.
 
