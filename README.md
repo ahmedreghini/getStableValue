@@ -4,12 +4,15 @@ get stable value from any input exp: esp32 ADC, arduino... from any sensor or ot
 
 This function get the most repeated value of a ADC pin by a special algorithm,
 
-you can ... from three parameter :
+you can adjust your result from three parameter :
 
-1----uint8_t _pin ==> the number of the ADC pin (exp: 35 in esp 32 and A0 in arduino).
-2----int _nvs = 100, ==> number of simplings of anologueRead(pin) you have to read before and get result of (the  most repeated value on them).
-3----int _x = 4 ==> number of loops of (get the most repeated value) from (the most repeated value of the previous chaine (step--3)).
-4----int _dep = 2 ==> number of time you repeat all the previous steps then get a value (_x) times then out a result1.
+step1----uint8_t _pin ==> the number of the ADC pin (exp: 35 in esp 32 and A0 in arduino).
+
+step2----int _nvs = 100, ==> number of simplings of anologueRead(pin) you have to read before and get result of (the  most repeated value on them).
+
+step3----int _x = 4 ==> number of loops of (get the most repeated value) from (the most repeated value of the previous chaine (step--3)).
+
+step4----int _dep = 2 ==> number of time you repeat all the previous steps then get a value (_x) times then out a result1.
 
 exemple1: 
 
