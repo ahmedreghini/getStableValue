@@ -17,14 +17,19 @@ step4----int _dep = 2 ==> number of time you repeat all the previous steps then 
 exemple1: 
 
 if _dep = 2 then the result2 =  _x * result1----> result1 = _x * step3 -----> step3 = _x * step2 -------> step2 = _nvs * analogueRead(pin).
+
 the final result will be result2.
+
 result = the most repeated value.
 
 exemple2: 
+
 getStableValue(35,100,4,2);
+
 result2 =  [4* result1] ====> [result1 = 4 * step3] ====> [step3 = 4 * step2] ====> [step2 = 100 * analogueRead(35)]
 
 100*4*4*4*2 = 12800
+
 it out a stable value from 12800 value.
 
 - it get the most repeated value (resultA) of nvs * analogueRead(pin), and stored in an array (t1).
