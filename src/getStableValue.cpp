@@ -23,7 +23,7 @@ this function get the most repeated value of a ADC pin by a special algorithm,
 - then it get the most repeated value in t2 array (result..N) and return it.
 */
 
-int getStableValue::GSV(uint8_t _pin, int _nvs = 100, int _x = 4, int _dep = 2)
+int getStableValue::GSV(uint8_t _pin, int _nvs, int _x, int _dep)
 {
   int pin = _pin;
   int nvs = _nvs; // number of arrow in the array
