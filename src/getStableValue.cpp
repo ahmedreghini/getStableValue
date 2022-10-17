@@ -38,7 +38,7 @@ int getStableValue::GSV(uint8_t _pin, int _nvs = 100, int _x = 4, int _dep = 2)
     for (int i = 0; i < x; i++)
     {
 
-      t1[0][i] = getStableValue(pin, nvs, x, dep - 1);
+      t1[0][i] = GSV(pin, nvs, x, dep - 1);
       t1[1][i] = 0;
     }
   }
