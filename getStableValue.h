@@ -4,8 +4,8 @@
   Released into the public domain.
 */
 
-#ifndef Morse_h
-#define Morse_h
+#ifndef getStableValue_h
+#define getStableValue_h
 
 #include "Arduino.h"
 
