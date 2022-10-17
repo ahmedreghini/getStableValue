@@ -12,7 +12,7 @@
 class getStableValue
 {
   public: 
-  int GSV(uint8_t pin, int nvs = 100, int x = 4, int dep = 2);
+  int GSV(uint8_t _pin, int _nvs = 100, int _x = 4, int _dep = 2);
 
 private:
   int pin;
