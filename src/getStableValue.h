@@ -19,7 +19,6 @@ private:
   int nvs; // number of arrow in the array
   int x;
   int dep;
-  int t1[2][x];
   int result; // the most repeated value of resultA * x.
 };
 #endif
